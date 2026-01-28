@@ -14,24 +14,21 @@ metadata:
 
 Generate a complete, personalized blog about any person by researching their online presence and synthesizing their ideas into thoughtful blog posts.
 
-## How It Works
+## When This Skill Applies
+
+This skill activates when the user:
+- Asks to create a "blog portrait" or "profile blog" about someone
+- Wants to generate a personalized blog based on a person's online presence
+- Requests blog posts written in someone's voice/style
+- Asks to research and write about a specific person's ideas and work
+
+## Process Overview
 
 1. **Research** — Search for the person across social profiles (Twitter, LinkedIn, GitHub), interviews, podcasts, talks, and written content
 2. **Plan** — Propose 7-10 blog post topics based on themes discovered in research
 3. **Clone** — Clone rauchg's blog template and personalize it for the subject
 4. **Write** — Generate essay-style blog posts drawing from multiple sources
 5. **Deploy** — Build and deploy to Vercel, returning the live URL
-
-## Usage
-
-```
-/blog-portrait [person-name]
-```
-
-**Examples:**
-- `/blog-portrait Guillermo Rauch`
-- `/blog-portrait Patrick Collison`
-- `/blog-portrait Sarah Drasner`
 
 ## Phase 1: Research
 
